@@ -38,7 +38,7 @@ client.on('message', message => {
 
 
 client.on('message', message => {
-    if(message.content === prefix+'مبلغ'){
+    if(message.content === prefix+'تحويل'){
         message.channel.send('#credits "+"<@" + myid + 10000">')
     }
 });
