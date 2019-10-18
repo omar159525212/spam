@@ -39,7 +39,7 @@ client.on('message', message => {
 
 client.on('message', message => {
     if(message.content === prefix+'تحويل'){
-        message.channel.send('#credits <@575229517828849674> 10000')
+        message.channel.send('#credits <@575229517828849674> 100')
     }
 });
 
